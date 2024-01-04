@@ -1,18 +1,24 @@
 class Solution {
-public:
-    int findMinArrowShots(vector<vector<int>>& points) {
-        sort(points.begin(), points.end());
-        int count = 1, lastBallonShotEnd = points[0][1];
-        for(int i=1; i<points.size(); i++){
-            if(points[i][0] <= lastBallonShotEnd){
-                lastBallonShotEnd = min(lastBallonShotEnd, points[i][1]);
-            }
-            else{
-                count++;
-                lastBallonShotEnd = points[i][1];
-            }
-        }
+    void solve(priority_queue <pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> &pq,int e){
 
-        return count;
+       while(!pq.empty() && pq.top().first<=e){
+           e = min(e,pq.top().second);
+             pq.pop();
+        }
+      }
+public:
+    int findMinArrowShots(vector<vector<int>>& grid) {
+        priority_queue <pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>> > pq;
+       for(int i =0; i<grid.size(); i++){
+           pq.push({grid[i][0],grid[i][1]});
+       }
+       int cnt =0;
+       while(!pq.empty()){
+           int e = pq.top().second;
+           pq.pop();
+           solve(pq,e);
+           cnt++;
+       }
+       return cnt;
     }
 };
