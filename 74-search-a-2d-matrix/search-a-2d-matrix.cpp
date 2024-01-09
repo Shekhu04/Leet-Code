@@ -1,4 +1,4 @@
-bool binarySearch(vector<int>&nums, int target){
+/*bool binarySearch(vector<int>&nums, int target){
     int n = nums.size();
     int low=0, high = n-1;
 
@@ -9,7 +9,7 @@ bool binarySearch(vector<int>&nums, int target){
         else high = mid-1;
     }
     return false;
-}
+}*/
 
 class Solution {
 public:
@@ -26,11 +26,23 @@ public:
       } 
       return false;*/
 
-     /*Better Approach*/
+     /*Better Approach
       for (int i = 0; i < n; i++) {
         if (matrix[i][0] <= target && target <= matrix[i][m - 1]) {
             return binarySearch(matrix[i], target);
         }
+    }
+    return false;
+    }*/
+
+    //Optimal Approach
+     int low = 0, high = n * m - 1;
+    while (low <= high) {
+        int mid = (low + high) / 2;
+        int row = mid / m, col = mid % m;
+        if (matrix[row][col] == target) return true;
+        else if (matrix[row][col] < target) low = mid + 1;
+        else high = mid - 1;
     }
     return false;
     }
