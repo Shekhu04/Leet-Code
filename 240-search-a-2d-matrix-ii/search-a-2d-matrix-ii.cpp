@@ -16,6 +16,16 @@ public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int n = matrix.size(); //size of row
         int m = matrix[0].size(); //size of col;
+         int row = 0, col= m-1;
+
+    //Optimal Approach
+    //traverse the matrix from index (0,m-1)
+    while(row < n && col >= 0) {
+        if(matrix[row][col] == target) return true;
+        else if (matrix[row][col] < target) row++;
+        else col--;
+    }
+    return false;
         
         /*BFA
         //traverse the matrix
@@ -26,10 +36,12 @@ public:
     }
      return false;*/
 
+     /*Better Approach
      for(int i=0; i<n; i++){
         bool flag = binarySearch(matrix[i],target);
         if (flag) return true;
     }
-    return false;
+    return false;*/
+
     }
 };
