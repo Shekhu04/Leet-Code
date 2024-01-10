@@ -17,12 +17,19 @@ public:
         int n = matrix.size(); //size of row
         int m = matrix[0].size(); //size of col;
         
+        /*BFA
         //traverse the matrix
         for(int i=0; i<n; i++){
         for(int j=0; j<m; j++){
             if(matrix[i][j] == target) return true;
         }
     }
-     return false;
+     return false;*/
+
+     for(int i=0; i<n; i++){
+        bool flag = binarySearch(matrix[i],target);
+        if (flag) return true;
+    }
+    return false;
     }
 };
