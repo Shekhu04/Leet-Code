@@ -30,6 +30,10 @@ public:
             temp->next=newnode;
             temp=temp->next;
         }
+       if(carry) {
+        ListNode* newNode = new ListNode(carry);
+        temp -> next = newNode;
+    }
         return dummy->next;
     }
 };
