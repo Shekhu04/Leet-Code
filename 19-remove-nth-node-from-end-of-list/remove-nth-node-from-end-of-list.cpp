@@ -11,40 +11,26 @@
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-         //BFA
-    if(head == NULL) return NULL;
+    //Optimal Approach
+    //Create two pointers
+    ListNode* fastp = head;
+    ListNode* slowp = head;
 
-    int cnt = 0;
-    ListNode*temp = head;
+    //Move the fastp N nodes ahead
+    for(int i = 0; i<n;i++) fastp = fastp -> next;
 
-    //Count number of nodes
-    while(temp != NULL){
-        cnt++;
-        temp = temp -> next;
+    //if fastp becomes NULL then the Nth node from the end is head
+    if(fastp == NULL) return head->next;
+
+    //Move both pointers until fastp reaches the end
+    while(fastp->next != NULL) {
+        fastp = fastp->next;
+        slowp = slowp->next;
     }
-    if(cnt == n){
-        ListNode*newHead = head -> next;
-        delete(head);
-        return newHead;
-    }
-
-    //Calculate the position of the node to delete (res)
-    int res = cnt - n;
-    ListNode* curr = head;
-
-    //Traverse to the node just before the one to delete
-    while(curr != NULL) {
-        res--;
-
-        if(res == 0) break;
-            
-        curr = curr -> next;
-    }
-
     //Delete the Nth node from the end
-    ListNode* delNode = curr->next;
-    curr->next = curr->next->next;
-    delete(delNode);
+    ListNode* delNode = slowp->next;
+    slowp->next = slowp ->next->next;
+    delete delNode;
     return head;
     }
 };
