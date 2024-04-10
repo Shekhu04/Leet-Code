@@ -32,17 +32,13 @@ public:
             tail = tail->next;
         }
 
+        if(k % len == 0) return head;
+
         k = k % len;
-        if(k == 0) return head;
-        int pos = len - k;
-
-        tail->next = head;
-        while(pos--){
-            tail = tail->next;
-        }
-
-        head = tail->next;
-        tail->next = NULL;
+        tail-> next = head;
+        ListNode* newLastNode = findLastNode(head, len-k);
+        head = newLastNode->next;
+        newLastNode -> next = NULL;
 
 
         return head;
