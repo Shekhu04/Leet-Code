@@ -13,11 +13,11 @@ public:
         if(prices[i] < buy_price) {
             buy_price = prices[i];
         }
-        else{
+        else if
             //else check if we can get better profit
-            int current_profit = prices[i] - buy_price;
-            profit = max(current_profit, profit);
-        }
+            (prices[i] - buy_price > profit){
+                profit = prices[i]-buy_price;
+            }
     }
     return profit;
  }
