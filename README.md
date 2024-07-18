@@ -29,4 +29,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0229-majority-element-ii) |
+## String
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Shekhu04/Leet-Code/tree/master/0014-longest-common-prefix) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Shekhu04/Leet-Code/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
