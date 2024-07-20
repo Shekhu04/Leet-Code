@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0205-isomorphic-strings](https://github.com/Shekhu04/Leet-Code/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/Shekhu04/Leet-Code/tree/master/0242-valid-anagram) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Two Pointers
 |  |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/Shekhu04/Leet-Code/tree/master/0242-valid-anagram) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Counting
 |  |
@@ -35,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Shekhu04/Leet-Code/tree/master/0014-longest-common-prefix) |
 | [0205-isomorphic-strings](https://github.com/Shekhu04/Leet-Code/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/Shekhu04/Leet-Code/tree/master/0242-valid-anagram) |
 | [0812-rotate-string](https://github.com/Shekhu04/Leet-Code/tree/master/0812-rotate-string) |
 ## Trie
 |  |
