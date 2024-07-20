@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Shekhu04/Leet-Code/tree/master/0242-valid-anagram) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0451-sort-characters-by-frequency](https://github.com/Shekhu04/Leet-Code/tree/master/0451-sort-characters-by-frequency) |
 ## Two Pointers
 |  |
 | ------- |
@@ -28,16 +29,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Shekhu04/Leet-Code/tree/master/0242-valid-anagram) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0451-sort-characters-by-frequency](https://github.com/Shekhu04/Leet-Code/tree/master/0451-sort-characters-by-frequency) |
 ## Counting
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0229-majority-element-ii) |
+| [0451-sort-characters-by-frequency](https://github.com/Shekhu04/Leet-Code/tree/master/0451-sort-characters-by-frequency) |
 ## String
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Shekhu04/Leet-Code/tree/master/0014-longest-common-prefix) |
 | [0205-isomorphic-strings](https://github.com/Shekhu04/Leet-Code/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Shekhu04/Leet-Code/tree/master/0242-valid-anagram) |
+| [0451-sort-characters-by-frequency](https://github.com/Shekhu04/Leet-Code/tree/master/0451-sort-characters-by-frequency) |
 | [0812-rotate-string](https://github.com/Shekhu04/Leet-Code/tree/master/0812-rotate-string) |
 ## Trie
 |  |
@@ -47,4 +51,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/Shekhu04/Leet-Code/tree/master/0812-rotate-string) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/Shekhu04/Leet-Code/tree/master/0451-sort-characters-by-frequency) |
+## Bucket Sort
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/Shekhu04/Leet-Code/tree/master/0451-sort-characters-by-frequency) |
 <!---LeetCode Topics End-->
