@@ -1,28 +1,30 @@
 class Solution {
 public:
-    static bool cmp(pair<char,int>& a,pair<char,int>& b)
-    {
-        return a.second>b.second;    //sorting with respect to the frequency of characters
-    }
-    
     string frequencySort(string s) {
-        vector<pair<char,int>> v(256);   //declare a vector of pair where we can store character and their frequency
-        
-        for(auto it:s)
-        {
-            v[it].first=it;           //storing the character
-            v[it].second+=1;          //storing its frequency
+        map<char,int> mp; // Step 1: Create a map to count the frequency of each character
+
+        // Step 2: Populate the frequency map
+        for(int i=0; i<s.size(); i++){
+            mp[s[i]]++;
         }
-        
-        sort(v.begin(),v.end(),cmp);  //sorting the vector
-        
-        string ans;                   //declaring a string to store ans
-        
-        for(auto it:v) 
-        {
-            for(int j=0;j<it.second;j++) ans+=it.first;    //running the second loop till we complete storing all the frequency
+
+        string ans = ""; // Step 3: Initialize the result string
+        priority_queue<pair<int,char>> pq; // Step 4: Create a max-heap (priority queue) to store characters by frequency
+
+        // Step 5: Push each character and its frequency into the priority queue
+        for(auto i:mp)
+            pq.push({i.second,i.first});
+
+        // Step 6: Build the result string by extracting from the priority queue
+        while(!pq.empty()){
+            int n = pq.top().first; // Get the frequency of the character
+
+            while(n--){
+                ans += pq.top().second; // Add the character to the result string
+            }
+            pq.pop(); // Remove the character from the priority queue
         }
-        
-        return ans;
+
+        return ans; // Return the result string
     }
 };
