@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0152-maximum-product-subarray](https://github.com/Shekhu04/Leet-Code/tree/master/0152-maximum-product-subarray) |
 | [0229-majority-element-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0229-majority-element-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1293-three-consecutive-odds](https://github.com/Shekhu04/Leet-Code/tree/master/1293-three-consecutive-odds) |
@@ -74,4 +75,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Shekhu04/Leet-Code/tree/master/0005-longest-palindromic-substring) |
+| [0152-maximum-product-subarray](https://github.com/Shekhu04/Leet-Code/tree/master/0152-maximum-product-subarray) |
 <!---LeetCode Topics End-->
