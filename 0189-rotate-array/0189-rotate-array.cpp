@@ -1,7 +1,6 @@
 class Solution {
 public:
-
-    // Function to reverse the array between start and end indices
+     // Function to reverse the array between start and end indices
     void reverseArray(vector<int>& nums, int start, int end){
         while(start < end){
             swap(nums[start], nums[end]);
