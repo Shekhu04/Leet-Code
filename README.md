@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Shekhu04/Leet-Code/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0056-merge-intervals](https://github.com/Shekhu04/Leet-Code/tree/master/0056-merge-intervals) |
 | [0152-maximum-product-subarray](https://github.com/Shekhu04/Leet-Code/tree/master/0152-maximum-product-subarray) |
+| [0189-rotate-array](https://github.com/Shekhu04/Leet-Code/tree/master/0189-rotate-array) |
 | [0229-majority-element-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0229-majority-element-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1293-three-consecutive-odds](https://github.com/Shekhu04/Leet-Code/tree/master/1293-three-consecutive-odds) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Shekhu04/Leet-Code/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Shekhu04/Leet-Code/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Shekhu04/Leet-Code/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0189-rotate-array](https://github.com/Shekhu04/Leet-Code/tree/master/0189-rotate-array) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Binary Search
 |  |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Shekhu04/Leet-Code/tree/master/0050-powx-n) |
+| [0189-rotate-array](https://github.com/Shekhu04/Leet-Code/tree/master/0189-rotate-array) |
 | [2050-count-good-numbers](https://github.com/Shekhu04/Leet-Code/tree/master/2050-count-good-numbers) |
 ## Recursion
 |  |
