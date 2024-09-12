@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/Shekhu04/Leet-Code/tree/master/0152-maximum-product-subarray) |
 | [0189-rotate-array](https://github.com/Shekhu04/Leet-Code/tree/master/0189-rotate-array) |
 | [0229-majority-element-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0229-majority-element-ii) |
+| [0268-missing-number](https://github.com/Shekhu04/Leet-Code/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Shekhu04/Leet-Code/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1293-three-consecutive-odds](https://github.com/Shekhu04/Leet-Code/tree/master/1293-three-consecutive-odds) |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/Shekhu04/Leet-Code/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Shekhu04/Leet-Code/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/Shekhu04/Leet-Code/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/Shekhu04/Leet-Code/tree/master/0451-sort-characters-by-frequency) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Shekhu04/Leet-Code/tree/master/1890-sum-of-beauty-of-all-substrings) |
@@ -37,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/Shekhu04/Leet-Code/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Sorting
 |  |
@@ -46,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Shekhu04/Leet-Code/tree/master/0056-merge-intervals) |
 | [0229-majority-element-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Shekhu04/Leet-Code/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/Shekhu04/Leet-Code/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/Shekhu04/Leet-Code/tree/master/0451-sort-characters-by-frequency) |
 ## Counting
@@ -96,10 +100,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/Shekhu04/Leet-Code/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Shekhu04/Leet-Code/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/Shekhu04/Leet-Code/tree/master/0268-missing-number) |
 | [2050-count-good-numbers](https://github.com/Shekhu04/Leet-Code/tree/master/2050-count-good-numbers) |
 ## Recursion
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Shekhu04/Leet-Code/tree/master/0050-powx-n) |
 | [2050-count-good-numbers](https://github.com/Shekhu04/Leet-Code/tree/master/2050-count-good-numbers) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Shekhu04/Leet-Code/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
