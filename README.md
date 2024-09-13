@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/Shekhu04/Leet-Code/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Shekhu04/Leet-Code/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0056-merge-intervals](https://github.com/Shekhu04/Leet-Code/tree/master/0056-merge-intervals) |
+| [0136-single-number](https://github.com/Shekhu04/Leet-Code/tree/master/0136-single-number) |
 | [0152-maximum-product-subarray](https://github.com/Shekhu04/Leet-Code/tree/master/0152-maximum-product-subarray) |
 | [0189-rotate-array](https://github.com/Shekhu04/Leet-Code/tree/master/0189-rotate-array) |
 | [0229-majority-element-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0229-majority-element-ii) |
@@ -111,5 +112,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/Shekhu04/Leet-Code/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/Shekhu04/Leet-Code/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
