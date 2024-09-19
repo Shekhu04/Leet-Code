@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/Shekhu04/Leet-Code/tree/master/0485-max-consecutive-ones) |
 | [1293-three-consecutive-odds](https://github.com/Shekhu04/Leet-Code/tree/master/1293-three-consecutive-odds) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Shekhu04/Leet-Code/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/Shekhu04/Leet-Code/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
 | ------- |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Shekhu04/Leet-Code/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Shekhu04/Leet-Code/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/Shekhu04/Leet-Code/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Binary Search
 |  |
 | ------- |
@@ -132,4 +134,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/Shekhu04/Leet-Code/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/Shekhu04/Leet-Code/tree/master/0169-majority-element) |
+## Simulation
+|  |
+| ------- |
+| [2271-rearrange-array-elements-by-sign](https://github.com/Shekhu04/Leet-Code/tree/master/2271-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
