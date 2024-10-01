@@ -30,15 +30,27 @@ public:
     //    return head;
 
     //OA (Iterative)
-    ListNode* temp = head;
-    ListNode * prev = NULL;
+    // ListNode* temp = head;
+    // ListNode * prev = NULL;
 
-    while(temp){
-        ListNode* front = temp -> next;
-        temp -> next = prev;
-        prev = temp;
-        temp = front;
+    // while(temp){
+    //     ListNode* front = temp -> next;
+    //     temp -> next = prev;
+    //     prev = temp;
+    //     temp = front;
+    // }
+    // return prev;
+
+    //OA (Recursive)
+
+    if(head == NULL || head -> next == NULL){
+        return head;
     }
-    return prev;
+    ListNode * newHead = reverseList(head -> next);
+    ListNode * front = head -> next;
+    front -> next = head;
+    head -> next = NULL;
+
+    return newHead;
     }
 };
