@@ -16,18 +16,32 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
-       
-        ListNode *fast = head;
-        ListNode *slow = head;
-        while(fast != NULL && fast ->next != NULL)
-        {
-            fast = fast->next->next;
-            slow = slow->next;
-            
-	
-            if(fast == slow)
+
+        //BFA
+        ListNode * temp = head;
+
+        unordered_map<ListNode*, int> nodeMap;
+
+        while(temp){
+            if(nodeMap.find(temp) != nodeMap.end()){
                 return true;
+            }
+            nodeMap[temp] = 1;
+            temp = temp -> next;
         }
         return false;
+       
+        // ListNode *fast = head;
+        // ListNode *slow = head;
+        // while(fast != NULL && fast ->next != NULL)
+        // {
+        //     fast = fast->next->next;
+        //     slow = slow->next;
+            
+	
+        //     if(fast == slow)
+        //         return true;
+        // }
+        // return false;
     }
 };
