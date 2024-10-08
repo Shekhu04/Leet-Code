@@ -1,27 +1,37 @@
+#include <iostream>
+#include <unordered_map>
+using namespace std;
+
 class Solution {
 public:
-    // Function to check if two strings s and t are isomorphic
     bool isIsomorphic(string s, string t) {
-        // Two unordered maps to store character mappings
-        unordered_map<char, char> mp, mp2;
-
-        // If the lengths of the strings are different, they can't be isomorphic
-        if (s.length() != t.length()) return false;
-
-        // Iterate through each character in the strings
-        for (int i = 0; i < s.length(); ++i) {
-            // Check if there is a conflicting mapping for s[i] in mp
-            if (mp[s[i]] && mp[s[i]] != t[i]) return false;
-
-            // Check if there is a conflicting mapping for t[i] in mp2
-            if (mp2[t[i]] && mp2[t[i]] != s[i]) return false;
-
-            // Create the mapping from s[i] to t[i] and from t[i] to s[i]
-            mp[s[i]] = t[i];
-            mp2[t[i]] = s[i];
+        if (s.length() != t.length()) {
+            return false;
         }
 
-        // If no conflicts were found, the strings are isomorphic
+        unordered_map<char, char> mapST; // Maps characters from s to t
+        unordered_map<char, char> mapTS; // Maps characters from t to s
+
+        for (int i = 0; i < s.length(); i++) {
+            char original = s[i];
+            char replacement = t[i];
+
+            // Check if the mapping from s -> t exists
+            if (mapST.find(original) != mapST.end()) {
+                if (mapST[original] != replacement) {
+                    return false; // Inconsistent mapping
+                }
+            } else {
+                // Check if replacement is already mapped in mapTS
+                if (mapTS.find(replacement) != mapTS.end() && mapTS[replacement] != original) {
+                    return false;
+                }
+                // Establish new mappings in both directions
+                mapST[original] = replacement;
+                mapTS[replacement] = original;
+            }
+        }
+
         return true;
     }
 };
