@@ -1,37 +1,21 @@
 class Solution {
 public:
     int maxDepth(string s) {
-        int count = 0;
-        int max_num = 0;
+        int count = 0; // Variable to track the current depth of nested parentheses
+        int max_num = 0; // Variable to track the maximum depth encountered
 
-        for(char c : s){
+        // Iterate over each character in the string
+        for(int i = 0; i<s.size(); i++){
+            char c = s[i];
+            // If the character is '(', it means we are going one level deeper
             if(c == '('){
-                 count ++;
-                 if(max_num < count) max_num = count;
+                count++; // Increase the current depth
+                // Update the maximum depth if the current depth is greater than max_num
+                if(max_num < count) max_num = count;
             }
+            // If the character is ')', it means we are going one level shallower
             else if(c == ')') count--;
-
         }
-        return max_num;
+        return max_num; // Return the maximum depth encountered
     }
 };
-
-// ex: 1.(1)+((2))+(((3)))
-// ind=0 ->count=1,max=1.
-// ind=1 ->count=1,max=1.
-// ind=2 ->count=0,max=1.
-// ind=3 ->count=0,max=1.
-// ind=4 ->count=1,max=1.
-// ind=5 ->count=2,max=2.
-// ind=6 ->count=2,max=2.
-// ind=7 ->count=1,max=2.
-// ind=8 ->count=0,max=2.
-// ind=9 ->count=0,max=2.
-// ind=10 ->count=1,max=2.
-// ind=11 ->count=2,max=2.
-// ind=12 ->count=3,max=3.
-// ind=13 ->count=3,max=3.
-// ind=14 ->count=2,max=3.
-// ind=15 ->count=1,max=3.
-// ind=16 ->count=0,max=3.
-// thus the max=3.
