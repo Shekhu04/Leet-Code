@@ -19,8 +19,9 @@ public:
 
         // Step 3: Convert digits to integer
         long long result = 0;  // Use long long to handle overflow cases
-        while (i < n && isdigit(s[i])) {
+        while (i < n && (s[i] >= '0' && s[i] <= '9')) {  // Manual check for digits
             result = result * 10 + (s[i] - '0');
+            
             // Step 4: Check for overflow and underflow
             if (result * sign >= INT_MAX) {
                 return INT_MAX;  // Return INT_MAX if overflow occurs
@@ -31,6 +32,6 @@ public:
             i++;  // Move to the next character
         }
 
-        return static_cast<int>(result * sign);  // Apply sign and return the result
+        return (result * sign);  // Apply sign and return the result
     }
 };
