@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Shekhu04/Leet-Code/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/Shekhu04/Leet-Code/tree/master/0451-sort-characters-by-frequency) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Shekhu04/Leet-Code/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/Shekhu04/Leet-Code/tree/master/1960-check-if-the-sentence-is-pangram) |
 ## Two Pointers
 |  |
 | ------- |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1078-remove-outermost-parentheses](https://github.com/Shekhu04/Leet-Code/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Shekhu04/Leet-Code/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Shekhu04/Leet-Code/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/Shekhu04/Leet-Code/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2032-largest-odd-number-in-string](https://github.com/Shekhu04/Leet-Code/tree/master/2032-largest-odd-number-in-string) |
 ## Trie
 |  |
